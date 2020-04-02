@@ -2,7 +2,7 @@ package org.ian.entity;
 
 import java.io.IOException;
 import java.io.Reader;
-//遠端更新
+//aaaaa
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
