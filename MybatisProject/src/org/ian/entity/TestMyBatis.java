@@ -10,7 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class TestMyBatis {
 	public static void main(String[] args) throws IOException {
-		//更MyBatis皌竚ゅン(砐拜计沮畐)
+		//更MyBatis皌竚ゅン(砐拜计沮畐)11111
 		Reader reader = Resources.getResourceAsReader("conf.xml");
 		//SqlSessionFactory -connection
 		SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(reader) ;
