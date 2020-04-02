@@ -2,7 +2,7 @@ package org.ian.entity;
 
 import java.io.IOException;
 import java.io.Reader;
-//é ç«¯æ›´æ–°
+//wdasd
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -10,11 +10,11 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class TestMyBatis {
 	public static void main(String[] args) throws IOException {
-		//åŠ è¼‰MyBatisé…ç½®æ–‡ä»¶(ç‚ºäº†è¨ªå•æ•¸æ“šåº«)11111
+		//¥[¸üMyBatis°t¸m¤å¥ó(¬°¤F³X°İ¼Æ¾Ú®w)11111
 		Reader reader = Resources.getResourceAsReader("conf.xml");
 		//SqlSessionFactory -connection
 		SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(reader) ;
-		//Sessionç›¸ç•¶æ–¼jdbcçš„ connection
+		//Session¬Û·í©ójdbcªº connection
 		String statement = "org.ian.entity.PersonMapper.queryPersonById";
 		SqlSession session = sessionFactory.openSession();
 		Person person = session.selectOne(statement,1);
